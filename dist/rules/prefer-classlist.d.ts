@@ -1,8 +1,6 @@
 import type { TSESLint } from "@typescript-eslint/utils";
-type Options = [
-  {
+type Options = [{
     classnames?: Array<string>;
-  }?,
-];
+}?];
 declare const _default: TSESLint.RuleModule<"preferClasslist", Options, TSESLint.RuleListener>;
 export default _default;
